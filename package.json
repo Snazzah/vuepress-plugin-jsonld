@@ -28,7 +28,7 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "gpr": "npx ts-node scripts/gpr",
-    "prepublishOnly": "(npx shx test -d ./lib || (echo \"lib folder does not exist\" && exit 1)) && npm run lint:fix"
+    "prepublishOnly": "npm run build && npm run lint:fix"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
