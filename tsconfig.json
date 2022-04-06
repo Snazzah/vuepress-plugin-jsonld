@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "module": "es2015",
+    "target": "es2020",
+    "module": "commonjs",
     "newLine": "lf",
-    "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "lib",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
     "sourceMap": true,
+    "declaration": true,
+    "outDir": "lib",
     "strict": true,
-    "strictNullChecks": true,
-    "target": "es2015"
-  }
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
