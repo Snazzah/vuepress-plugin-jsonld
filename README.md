@@ -1,7 +1,22 @@
 # vuepress-plugin-jsonld
 > VuePress plugin for adding JSON-LD to pages
 
-You can add JSONLD to pages using the `ld` prop in the frontmatter:
+## Installation
+```sh
+yarn add -D vuepress-plugin-jsonld
+# or
+npm install -D vuepress-plugin-jsonld
+```
+
+## Usage
+```js
+// .vuepress/config.js
+module.exports = {
+  plugins: ['jsonld'],
+}
+```
+
+You can add JSON-LD to pages using the `ld` prop in the frontmatter:
 ```yaml
 ---
 ld:
