@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-jsonld",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VuePress plugin for adding JSON-LD to pages",
   "keywords": [
     "linkeddata",
